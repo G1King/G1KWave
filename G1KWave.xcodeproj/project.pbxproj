@@ -15,6 +15,7 @@
 		ECEF8ECF1DCC364500B2BDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEF8ECD1DCC364500B2BDAC /* LaunchScreen.storyboard */; };
 		ECEF8EDA1DCC364500B2BDAC /* G1KWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF8ED91DCC364500B2BDAC /* G1KWaveTests.m */; };
 		ECEF8EE51DCC364500B2BDAC /* G1KWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF8EE41DCC364500B2BDAC /* G1KWaveUITests.m */; };
+		ECEF8EF51DCC365E00B2BDAC /* G1KWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF8EF41DCC365E00B2BDAC /* G1KWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ECEF8EE01DCC364500B2BDAC /* G1KWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = G1KWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEF8EE41DCC364500B2BDAC /* G1KWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G1KWaveUITests.m; sourceTree = "<group>"; };
 		ECEF8EE61DCC364500B2BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEF8EF31DCC365E00B2BDAC /* G1KWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G1KWaveView.h; sourceTree = "<group>"; };
+		ECEF8EF41DCC365E00B2BDAC /* G1KWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G1KWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		ECEF8EBE1DCC364500B2BDAC /* G1KWave */ = {
 			isa = PBXGroup;
 			children = (
+				ECEF8EF21DCC364B00B2BDAC /* wave */,
 				ECEF8EC21DCC364500B2BDAC /* AppDelegate.h */,
 				ECEF8EC31DCC364500B2BDAC /* AppDelegate.m */,
 				ECEF8EC51DCC364500B2BDAC /* ViewController.h */,
@@ -138,6 +142,15 @@
 				ECEF8EE61DCC364500B2BDAC /* Info.plist */,
 			);
 			path = G1KWaveUITests;
+			sourceTree = "<group>";
+		};
+		ECEF8EF21DCC364B00B2BDAC /* wave */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF8EF31DCC365E00B2BDAC /* G1KWaveView.h */,
+				ECEF8EF41DCC365E00B2BDAC /* G1KWaveView.m */,
+			);
+			name = wave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEF8EC71DCC364500B2BDAC /* ViewController.m in Sources */,
+				ECEF8EF51DCC365E00B2BDAC /* G1KWaveView.m in Sources */,
 				ECEF8EC41DCC364500B2BDAC /* AppDelegate.m in Sources */,
 				ECEF8EC11DCC364500B2BDAC /* main.m in Sources */,
 			);
@@ -429,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = G1KWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = G1KWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.G1KWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
