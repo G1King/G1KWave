@@ -1,0 +1,13 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.0.0)
+  - PureLayout (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+COCOAPODS: 0.39.0
